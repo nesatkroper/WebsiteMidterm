@@ -227,14 +227,6 @@ body {
   display: flex;
   top: 100px;
 }
-.text-heading {
-  display: flex;
-}
-.text-content h1 {
-  color: #000;
-  text-transform: uppercase;
-  padding: 5px;
-}
 
 .check {
   background: #e6618c;
@@ -247,4 +239,32 @@ body {
   font-weight: bold;
   font-size: 18px;
   border-radius: 5px;
+}
+.text-heading {
+  display: flex;
+}
+.text-content h1,
+h2,
+p {
+  color: #000;
+  text-transform: uppercase;
+  padding: 5px;
+}
+.more-btn {
+  width: 200px;
+  height: 45px;
+  text-transform: uppercase;
+  border: 3px solid #000;
+  background: transparent;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.more-btn:hover {
+  background: #e6618c;
+  border: 3px solid #e6618c;
+  border-radius: 5px;
+  color: #fff;
+  transition: all 150ms ease-in-out;
 }
