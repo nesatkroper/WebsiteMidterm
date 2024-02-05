@@ -214,12 +214,13 @@ body {
 .box select,
 .box button,
 .box input {
-  color: #6d5fb4;
+  color: #e6618c;
   height: 50px;
   width: 200px;
   text-transform: uppercase;
   border-radius: 5px;
-  border: 3px solid #e6618c;
+  border: 3px solid #6d5fb4;
+  font-weight: bold;
 }
 
 .container {
@@ -229,26 +230,60 @@ body {
 }
 
 .check {
-  background: #e6618c;
+  background: #6d5fb4;
   text-transform: uppercase;
 }
 .check:hover {
   transition: all 500ms ease-in-out;
   background: transparent;
-  border: 3px solid #e6618c;
+  color: #6d5fb4;
+  border: 3px solid #6d5fb4;
   font-weight: bold;
   font-size: 18px;
   border-radius: 5px;
 }
+.container {
+  position: relative;
+  justify-content: center;
+  padding: 50px 50px 100px 50px;
+}
+.text-content {
+  padding: 20px;
+}
+
 .text-heading {
   display: flex;
 }
-.text-content h1,
-h2,
-p {
-  color: #000;
+.h-txt-red {
+  font-size: 35px;
   text-transform: uppercase;
-  padding: 5px;
+  color: #e6618c;
+  padding: 0 10px;
+  font-weight: 500;
+}
+.h-txt-black {
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #000;
+}
+.p-txt-1 {
+  font-size: 17px;
+  color: #000;
+  letter-spacing: 0.21px;
+  font-style: italic;
+  font-family: cursive;
+  padding: 10px;
+}
+.h-txt-h2 {
+  font-size: 22px;
+  color: #000;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+.p-txt-2 {
+  font-size: 17px;
+  color: #000;
+  padding: 10px;
 }
 .more-btn {
   width: 200px;
