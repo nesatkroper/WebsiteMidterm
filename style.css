@@ -214,10 +214,12 @@ body {
 .box select,
 .box button,
 .box input {
-  color: #000;
+  color: #6d5fb4;
   height: 50px;
   width: 200px;
   text-transform: uppercase;
+  border-radius: 5px;
+  border: 3px solid #e6618c;
 }
 
 .container {
@@ -232,4 +234,17 @@ body {
   color: #000;
   text-transform: uppercase;
   padding: 5px;
+}
+
+.check {
+  background: #e6618c;
+  text-transform: uppercase;
+}
+.check:hover {
+  transition: all 500ms ease-in-out;
+  background: transparent;
+  border: 3px solid #e6618c;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
 }
