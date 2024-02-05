@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.65);
+  /* filter: drop-shadow(5px 5px 5px rgb(40, 62, 126)); */
+}
+body {
+  position: relative;
+  /* display: flex; */
+}
+.bg {
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  opacity: 0.8;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  display: flex;
+  background: linear-gradient(
+    0deg,
+    rgba(65, 56, 192, 0.1),
+    rgba(27, 1, 58, 0.9)
+  );
+  height: 120px;
+}
+
+.header-top {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 80px;
+}
+
+.header-top-left {
+  display: flex;
+  justify-content: space-between;
+}
+.header-top-left a {
+  padding: 0 20px 0 0;
+  text-decoration: none;
+}
+.header-top-left a:hover {
+  color: #fff;
+  transition: all 150ms linear;
+  font-weight: 700;
+  font-size: 20px;
+}
+.header-top-left i {
+  padding: 0 10px 0 0;
+}
+.header-top-left i:hover {
+  color: #fff;
+  transition: all 150ms linear;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.header-top-right ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header-top-right li {
+  list-style: none;
+  padding: 0 20px;
+}
+.header-top-right i {
+  font-size: 20px;
+  /* border: 1px solid;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.header-top-right i:hover {
+  color: #fff;
+  transition: all 150ms linear;
+  font-size: 35px;
+}
+
+.header-menu {
+  width: 100%;
+  top: 40px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.navbar li {
+  list-style: none;
+  padding: 0 20px;
+  text-decoration: none;
+  align-items: center;
+}
+.navbar a {
+  font-size: 20px;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.navbar a:hover {
+  color: #e6618c;
+  font-weight: bold;
+  font-size: 25px;
+  transition: all 150ms ease-in-out;
+}
+.navbar i:hover {
+  color: #e6618c;
+  font-weight: bold;
+  font-size: 25px;
+  transition: all 150ms ease-in-out;
+}
+
+.logo img {
+  height: 30px;
+  filter: drop-shadow(15px 15px 15px rgb(3, 1, 24));
+}
+.logo img:hover {
+  transition: all 150ms ease-in-out;
+  height: 35px;
+}
+
+.book-btn {
+  display: flex;
+  border: 2px solid #e6618c;
+  height: 35px;
+  width: 140px;
+  color: #6d5fb4;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  background: #e6618c;
+  border-radius: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.book-btn:hover {
+  color: #e6618c;
+  font-size: 20px;
+  background: transparent;
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
+}
+
+.content {
+  z-index: 99;
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+
+.heading {
+  font-size: 45px;
+  font-weight: bold;
+  color: #fff;
+}
+.text {
+  font-weight: 500;
+  font-size: 17px;
+  color: #fff;
+}
+.reserve-btn {
+  width: 200px;
+  height: 45px;
+  text-transform: uppercase;
+  border: 3px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.reserve-btn:hover {
+  background: #e6618c;
+  border: 3px solid #e6618c;
+  border-radius: 5px;
+  transition: all 150ms ease-in-out;
+}
+
+.page-2 {
+  background: transparent;
+  position: relative;
+}
+.checkin-box {
+  display: flex;
+  position: relative;
+  background: #ffffff;
+  align-items: center;
+  height: 100px;
+  filter: drop-shadow(5px 5px 5px #6c6464);
+  justify-content: center;
+  top: -50px;
+  margin: 0 290px;
+}
+
+.box select,
+.box button,
+.box input {
+  color: #000;
+  height: 50px;
+  width: 200px;
+  text-transform: uppercase;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  top: 100px;
+}
+.text-heading {
+  display: flex;
+}
+.text-content h1 {
+  color: #000;
+  text-transform: uppercase;
+  padding: 5px;
+}
