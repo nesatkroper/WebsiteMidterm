@@ -172,11 +172,13 @@ body {
   font-size: 45px;
   font-weight: bold;
   color: #fff;
+  padding: 10px;
 }
 .text {
   font-weight: 500;
   font-size: 17px;
   color: #fff;
+  padding: 10px;
 }
 .reserve-btn {
   width: 200px;
